@@ -1,0 +1,62 @@
+Array
+----------------------------------------------------------------
+- O(1) Add new item
+- O(N) Insert item to a given index
+- O(1) Remove last item
+- O(N) Removing middle item
+- Its because shifting items takes time. So if 10000 items in array and we have to remove 1st item then we have to shift 10000 items one level above.
+
+Linked List
+------------------------------------------------------------------
+- Linked list are composed of nodes and references / pointers pointing from one to the other.
+- The last node points to a NULL/None
+- It can be of any data type
+- A node holds a data and reference to the next node
+- Implementation are stacks / queues etc
+- No limit
+- No shifting
+- Requires sequential scanning
+- Very efficient if we want to manipulate the first element
+- Memory is wasted for references
+- There is no random access so only sequential access is possible
+- Cannot access backward - but possible via doubly linked list but memory is wasted since we need to maintain additional reference in a node.
+
+- Insertion
+- O(1) - linkedList.insertAtStart(-5)
+- O(N) - linkedList.insertAtEnd(10) / linkedList.insertAt(10)
+
+- Removing
+- O(1) - linkedList.removeAtStart()
+- O(N) - linkedList.removeAtEnd(10) / linkedList.removeAt(10)
+ 
+Stacks & Queues
+-------------------------------------------------------------------
+Stack
+- LIFO
+- O(1) - POP
+- O(1) - PEEK
+- O(1) - PUSH
+- Applied in stack oriented programming lang
+- Graph algo like DFS
+- Finding Euler cycle in graph
+- Finding strongly connected component in Graph
+- Callstack - NodeJs is the best example
+Stacks vs Heap memory
+- Stacks has fixed and less space
+- Heaps are large and random access
+- Stack is fast whereas Heaps are slow
+- Temp variables function calls are in stack
+- Reference types are in Heap
+- Stacks are automatically managed
+- Heaps need to be managed manually in c, C++. Whereas in java, python .net garbage collection is there to help
+
+Queue
+- FIFO
+- O(1) - Enqueue
+- O(1) - Dequeue
+- O(1) - Peek
+- Applied in Dynamic arrays as well with LinkedList
+- Implemented in BFS algorithm for graphs
+- When resource is shared by many consumers we can store it in queues
+- IO Buffers
+- 
