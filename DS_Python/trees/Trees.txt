@@ -1,0 +1,57 @@
+There are some types of trees with good and short explanation:
+
+1.Binary Trees:
+
+
+A binary tree is a tree data structure in which each node has at most two children, which are referred to as the left child and the right child.
+
+2.Binary Search Tree:
+
+
+Binary Search Tree follow (Left.Value<Root<Rightchild.value) Rule
+
+*The major advantage of binary search trees over other data structures is that the related sorting algorithms and search algorithms such as in-order traversal can be very efficient; they are also easy to code.
+
+*Binary search trees are a fundamental data structure used to construct more abstract data structures such as sets, multisets, and associative arrays.
+
+3.AVL TREE:
+
+
+A AVL tree is a self-balancing binary search tree. In an AVL tree, the heights of the two child subtrees of any node differ by at most one; if at any time they differ by more than one, rebalancing is done to restore this property.
+
+Operations Like Insertion and deletion have low complexity.
+
+4.B-Tree:
+
+
+A B-tree is a self-balancing tree data structure that keeps data sorted and allows searches, sequential access, insertions, and deletions in logarithmic time. The B-tree is a generalization of a binary search tree in that a node can have more than two children.
+
+5.B+ Tree:
+
+
+A B+ tree is an n-array tree with a variable but often large number of children per node. A B+ tree consists of a root, internal nodes and leaves. The root may be either a leaf or a node with two or more children.
+
+A B+ tree can be viewed as a B-tree in which each node contains only keys (not key–value pairs), and to which an additional level is added at the bottom with linked leaves.
+
+6. Splay Tree:
+
+7. Huffman Tree:
+
+8. Red Black Tree:
+------------------------------------------------------------------------
+TRAVERSING
+-----------
+1) PreOrder
+ - Traverse root node
+ - Traverse left subtree
+ - Traverse right subtree
+2) InOrder
+ - Traverse left subtree
+ - Traverse root node
+ - Traverse right subtree
+3) PostOrer
+ - Traverse left subtree
+ - Traverse right subtree
+ - Traverse root node
+
+I hope it will helpful.
