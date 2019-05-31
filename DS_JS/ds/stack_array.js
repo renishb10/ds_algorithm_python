@@ -33,7 +33,10 @@ class Stack {
     if (this.items.length <= 0) {
       throw new Error("Stack underflow");
     }
-    this.items.forEach(item => {
+
+    const data = this.items.slice(0);
+    data.reverse();
+    data.forEach(item => {
       console.log(item);
     });
   }
